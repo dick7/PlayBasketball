@@ -1,0 +1,32 @@
+.title{
+	padding-top: 2%;
+	font-size: 1.9em;
+	color:#7c746e;
+	font-weight: bold;
+}
+.row{
+	background: white;
+}
+.content img{
+	width: 100%;
+	display: inline-block;
+	margin-top:2%;
+}
+.content p{
+	color:#999999;
+	text-indent:2em;
+	margin-top: 2%;
+	font-size: 2em;
+	line-height: 1.7em;
+}
+.content{
+	min-height: 600px;
+}
+@media screen and (max-width: 321px){
+	.title{
+		font-size: 1em;
+	}
+	.content p{
+		font-size: 1.1em;
+	}
+}
